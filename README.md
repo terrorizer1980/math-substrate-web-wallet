@@ -1,6 +1,12 @@
-# polkawallet
+# math-substrate-web-wallet
 
 > A Vue.js project
+
+> math-substrate-web-wallet is a substrate web wallet focus on assets management.
+
+> Supports both polkadot{.js} extension and MathWallet extension.
+
+> Example: http://mathwallet.org/polka/#/polkadot
 
 ## Build Setup
 
@@ -17,5 +23,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
