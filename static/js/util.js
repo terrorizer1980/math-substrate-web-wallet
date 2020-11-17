@@ -102,14 +102,6 @@ class Util {
     return new BigNumber(nStr).toFormat(n);
   }
 
-  // 获取加密code和time
-  getCodeTime(){
-    let key = 'SQscorK9G1ZnlCPo';
-    let timestamp = (Date.parse(new Date()))/1000;
-    let code = md5(timestamp+sha256(key+timestamp)+timestamp);
-    return '&code='+code+'&time='+timestamp;
-  }
-
   //查找 token返回
   findToken(tokens, alias){
     let result = [];

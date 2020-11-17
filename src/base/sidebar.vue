@@ -19,7 +19,7 @@
         <h4>{{webUtil.addCommas(balances.sum,6)}}</h4>
         <p
           class="grey-fsz"
-        >≈ {{webUtil.addCommas(balances[unit] ? balances[unit] : '0.00')}} {{unit}}</p>
+        >&asymp; {{webUtil.addCommas(balances[unit] ? balances[unit] : '0.00')}} {{unit}}</p>
         <ul class="token-list">
           <li v-for="(item,index) in balances.list" :key="index">
             <div v-if="index == 'GGT'">GGT</div>

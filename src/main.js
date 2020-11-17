@@ -29,7 +29,7 @@ Vue.mixin({
     return {
       toastInstance: null,
       root: '/',
-      apiLink:'https://api.maiziqianbao.net/apiPolka/',
+      apiLink:'http://localhost',
     }
   },
   computed: {
@@ -78,7 +78,7 @@ Vue.mixin({
     },
     // 拉取代币价格
     getTokenPrice(nodeUrl, alias, type){
-      let query = webUtil.getCodeTime();
+      let query = '';
       let response = {};
       let url = nodeUrl +'api/tokenListPub?type='+type+query;
      return  new Promise(resolve => {
@@ -90,7 +90,7 @@ Vue.mixin({
     },
     // 拉取汇率 1USD = ～RMB
     getCoinPub(nodeUrl){
-      let query = webUtil.getCodeTime();
+      let query = '';
       let url = nodeUrl + 'api/baseCoinPub?v=1.0'+query;
       let coins = {};
       return  new Promise(resolve => {

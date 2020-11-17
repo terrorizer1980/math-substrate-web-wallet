@@ -369,8 +369,8 @@
           balance.lockedBalance.toString()
         );
 
-        this.coin = await this.getCoinPub('https://market.maiziqianbao.net/');
-        this.getTokenPrice('https://market.maiziqianbao.net/', [this.symbol], this.chainId).then(res => {
+        this.coin = await this.getCoinPub(this.apiLink);
+        this.getTokenPrice(this.apiLink, [this.symbol], this.chainId).then(res => {
           if (res && res[this.symbol]) {
             this.priceCny = res[this.symbol];
             let price = new this.BigNumber(res[this.symbol] + '');
