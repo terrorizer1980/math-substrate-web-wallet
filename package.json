@@ -14,7 +14,7 @@
     "@edgeware/node-types": "^2.4.4",
     "@plasm/types": "^1.3.0",
     "@polkadot/api": "^2.5.2-2",
-    "@polkadot/extension-dapp": "^0.26.0-beta.27",
+    "@polkadot/extension-dapp": "^0.38.5",
     "@subsocial/types": "^0.4.13",
     "axios": "^0.19.2",
     "bignumber.js": "^9.0.0",
