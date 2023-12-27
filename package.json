@@ -16,7 +16,7 @@
     "@polkadot/api": "^2.5.2-2",
     "@polkadot/extension-dapp": "^0.26.0-beta.27",
     "@subsocial/types": "^0.4.13",
-    "axios": "^0.19.2",
+    "axios": "^1.6.3",
     "bignumber.js": "^9.0.0",
     "bootstrap": "^4.5.3",
     "crypto-js": "^4.0.0",
